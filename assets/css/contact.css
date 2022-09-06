@@ -1,0 +1,39 @@
+.contact {
+  margin: 0 auto;
+  width: 80%;
+}
+.contact_title {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.contact_title-text {
+  position: relative;
+  font-size: 35px;
+  color: #d30015;
+  font-weight: 600;
+  text-align: center;
+  font-weight: bold;
+}
+.contact_title-text::after {
+  position: absolute;
+  content: "";
+  width: 150px;
+  height: 2px;
+  background-color: var(--color-primary);
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.contact_title-text::before {
+  position: absolute;
+  content: "";
+  width: 36px;
+  height: 1px;
+  background-color: var(--color-primary);
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.address-text {
+  font-size: 20px;
+}

@@ -1,0 +1,93 @@
+.info {
+  width: 80%;
+  margin: 0 auto;
+}
+.intro {
+  display: flex;
+  margin: 70px 0px;
+}
+.intro .intro-img img {
+  display: inline-block;
+  width: 100%;
+}
+.intro .intro-content {
+  width: 100%;
+  display: inline-block;
+}
+.intro .context {
+  margin-left: 40px;
+}
+.intro .intro-content p {
+  font-size: 25px;
+  color: #d30015;
+  font-weight: bold;
+}
+.intro .intro-content ul {
+  margin-top: 15px;
+}
+.intro .intro-content ul li {
+  text-align: justify;
+  font-size: 19px;
+  font-family: arial, sans-serif;
+  margin-top: 5px;
+}
+#hr {
+  width: 80%;
+  margin: 0 auto;
+  height: 3px;
+  background-color: #d30015;
+}
+.products_index {
+  width: 80%;
+  margin: 15px auto;
+}
+.card-text {
+  font-size: 18px;
+}
+.price_product {
+  color: red;
+}
+.title_product {
+  font-weight: bold;
+  color: black;
+}
+.title_product:hover {
+  color: #d30015;
+  font-weight: bold;
+}
+.product_new_index {
+  width: 80%;
+  margin: 5px auto;
+}
+.product_new_index_left {
+  padding: 10px;
+  font-size: 24px;
+  color: white;
+  background-color: #d30015;
+}
+.product_new_index_right {
+  font-size: 20px;
+  float: right;
+  padding-right: 15px;
+}
+.card-product {
+  margin-bottom: 30px;
+}
+.product_new_link {
+  text-decoration: none;
+}
+.product_new_link:hover {
+  color: black !important;
+}
+/* Reponsive */
+@media (max-width: 1023px) {
+  .intro .context {
+    margin-left: 0px;
+  }
+  .intro {
+    flex-direction: column;
+  }
+  .intro .intro-content p {
+    text-align: center;
+  }
+}
